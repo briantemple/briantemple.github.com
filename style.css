@@ -1,0 +1,111 @@
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", times, serif;
+  background: #eeefe1;
+  color: #333;
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+#frame {
+  text-align: left;
+  width: 48em;
+  margin: 3em auto;
+  background: #fff5f5;
+  padding: 2em 6em;
+  border-top: 1em solid #333;
+  border-bottom: 1em solid #333;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  text-align: right;
+}
+
+.nav ul, .nav li {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  margin: 0 0.25em 0 0;
+  font-size: 87.5%;
+  font-weight: bold;
+  padding: 0.5em 0.75em;
+}
+
+.nav a:hover {
+  background: #eeefe1;
+}
+
+.nav .selected a {
+  background: #333;
+  color: #fff5f5;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid #eeecd4;
+}
+
+a:hover {
+  color: #333;
+  background: #eeecd4;
+  border: none;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 1.111em 0 .3em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 1.125em 0 .375em;
+  font-weight: normal;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.photo {
+  background: #fff;
+  padding: 0.25em;
+  border: 2px solid #f6efe1;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.em {
+  font-size: 1.5em;
+  background: #f6efe1;
+  padding: 0.5em;
+  border: 2px solid #eeecd4;
+}
+
+.column {
+  width: 47%;
+}
