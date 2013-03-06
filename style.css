@@ -54,7 +54,7 @@ body {
 a {
   text-decoration: none;
   color: #333;
-  border-bottom: 2px solid #eeecd4;
+  border-bottom: 1px solid #eeecd4;
 }
 
 a:hover {
