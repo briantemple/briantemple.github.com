@@ -65,15 +65,15 @@ a:hover {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3.25em;
   line-height: 1em;
   margin: 1.111em 0 .3em;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 2.5em;
-  line-height: 1.25em;
+  font-size: 2.75em;
+  line-height: 1.15em;
   margin: 1.125em 0 .375em;
   font-weight: normal;
 }
@@ -116,4 +116,8 @@ h3 {
 
 .column {
   width: 47%;
+}
+
+.column ul li {
+  font-size: 1.15em;
 }
